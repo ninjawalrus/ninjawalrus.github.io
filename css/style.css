@@ -1,3 +1,17 @@
+
+@font-face {
+    font-family: 'MeatDepreciationAristocracy';
+    src: url('../fonts/meat.ttf') format('truetype'),
+         url('../fonts/meat.woff') format('woff'), 
+         url('../fonts/meat.woff2') format('woff2');
+    font-weight: 400; 
+    font-style: normal; 
+}
+
+svg{
+    font-family: MeatDepreciationAristocracy, 'MeatDepreciationAristocracy', sans-serif;
+}
+
 .top5 { margin-top:5px; }
 .top7 { margin-top:7px; }
 .top10 { margin-top:10px; }
@@ -30,7 +44,7 @@ a:hover{
 
 p
 {
-    
+    font-size: 14pt;
     text-align: justify;
 }
 .pimg {
@@ -51,14 +65,15 @@ h2{
 }
 
 h3 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'MeatDepreciationAristocracy';
+    /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
     font-size: 50pt;
-    color: #800000;
+    color: #6F171A;
 }
 
 .text-primary
 {
-    color: #803333;
+    color: #6F171A;
     text-align: center;
 }
 
