@@ -8,6 +8,15 @@
     font-style: normal; 
 }
 
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
 svg{
     font-family: MeatDepreciationAristocracy, 'MeatDepreciationAristocracy', sans-serif;
 }
@@ -82,7 +91,30 @@ h3 {
     text-align: center;
 }
 
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
 .logo
 {
     max-height: 600px;
+}
+
+.modal-dialog{
+    width: 50%;
+}
+
+.modal-content{
+    width: 100%;
+}
+
+.patreonText{ 
+    text-align: center
+}
+
+.modal-footer{
+    border-top: 0;
 }
