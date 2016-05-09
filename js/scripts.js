@@ -443,5 +443,6 @@ function printEar(x,y) {
 }
 
 new Status(function(){
+    $("#canvas").show();
 	init();
 });
