@@ -106,6 +106,14 @@ h3 {
     margin: auto;
 }
 
+*::-ms-backdrop, .logo 
+{ 
+    height: 600px;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+}
+
 .modal-dialog{
     width: 50%;
 }
